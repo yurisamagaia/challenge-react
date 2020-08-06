@@ -1,0 +1,139 @@
+@import '../../assets/globals/colors.scss';
+
+
+.containers {
+  position: relative;
+  overflow-x: hidden;
+  .arrows {
+    display: none;
+    position: fixed;
+    top: 40%;
+    width: 100%;
+    justify-content: space-between;
+    z-index: 9;
+    div {
+      margin: 0px 5px;
+    }
+  }
+  .container-plans {
+    padding-top: 50px;
+    width: 1080px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+  }
+
+  .plan {
+    background: $white 0% 0% no-repeat padding-box;
+    border: 1px solid $blueExtraLight;
+    border-radius: 4px;
+    width: 330px;
+    margin: 10px 4px 0px 4px;
+    .separator {
+      height: 1px;
+      background-color: $blueExtraLight;
+    }
+    .plan-header {
+      font-weight: 600;
+      padding: 30px;
+      color: $blueDark;
+      .title {
+        font: 26px/26px 'Montserrat';
+        letter-spacing: 0px;
+        font-weight: 600;
+      }
+    }
+    .plan-price {
+      padding: 30px 20px;
+      .price {
+        font: 13px/19px 'Montserrat';
+        letter-spacing: 0px;
+        .price-normal {
+          text-decoration: line-through;
+          margin-right: 6px;
+        }
+        .price-discaount {
+          font-weight: 600;
+          color: $black;
+        }
+      }
+      .price-text-month {
+        font: 13px/19px 'Montserrat';
+        letter-spacing: 0px;
+      }
+      .price-month {
+        padding-top: 10px;
+        font: 20px/24px 'Montserrat';
+        letter-spacing: 0px;
+        color: $blueDark;
+        span {
+          font: 35px/24px 'Montserrat';
+          font-weight: 600;;
+        }
+      }
+      .price-hire {
+        background: $blue 0% 0% no-repeat padding-box;
+        border-radius: 26px;
+        color: $white;
+        margin: 25px 0px;
+        width: 100%;
+        font: 22px/27px 'Montserrat';
+        text-transform: none;
+        letter-spacing: 0px;
+        font-weight: 600;
+        padding: 10px 0px;
+      }
+      .price-hire-selected {
+        background: $orange 0% 0% no-repeat padding-box;
+      }
+      .price-information {
+        font: 15px/20px 'Montserrat';
+        letter-spacing: 0px;
+        font-weight: 600;
+      }
+      .price-economy {
+        font: 14px/18px 'Montserrat';
+        letter-spacing: 0px;
+        color: $blueDark;
+        margin-top: 10px;
+        span {
+          background: $green 0% 0% no-repeat padding-box;
+          border-radius: 50px;
+          color: $white;
+          padding: 3px 10px;
+          font-weight: bold;
+          margin-left: 5px;
+        }
+      }
+    }
+    .plan-items {
+      padding: 25px;
+      .items {
+        font: 16px/32px 'Montserrat';
+        letter-spacing: 0px;
+        .underline {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  .plan-selected {
+    margin: 0px 4px;
+    border-top: 12px solid $orange;
+    border-bottom: 5px solid $orange;
+  }
+}
+
+@media (max-width: 1025px) {
+  .containers {
+    .container-plans {
+      width: 930px;
+    }
+    .plan {
+      width: 295px;
+    }
+    .arrows {
+      display: flex;
+    }
+  }
+}
