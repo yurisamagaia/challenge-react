@@ -2,12 +2,15 @@
 
 > A react and redux application
 
+## Installation required 
+
+[npm](https://nodejs.org/en/download/) or yarn
 
 ## Build Setup
 
 ``` bash
 # installation required 
-npm [https://nodejs.org/en/download/] or yarn
+npm or yarn
 
 # install dependencies
 npm install
