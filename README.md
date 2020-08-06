@@ -23,3 +23,14 @@ npm run build
 ```
 
 APP will be running on http://localhost:3000. Open it in your browser.
+
+## Techs
+
+``` bash
+JavaScript
+React
+Material UI
+SASS
+Redux
+Animations
+```
