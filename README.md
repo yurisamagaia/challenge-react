@@ -7,7 +7,7 @@
 
 ``` bash
 # installation required 
-npm [https://nodejs.org/en/download/] or yarn
+npm [Node download](https://nodejs.org/en/download/) or yarn
 
 # install dependencies
 npm install
