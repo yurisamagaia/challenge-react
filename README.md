@@ -7,7 +7,7 @@
 
 ``` bash
 # installation required 
-npm [Node download](https://nodejs.org/en/download/) or yarn
+npm (https://nodejs.org/en/download/) or yarn
 
 # install dependencies
 npm install
@@ -19,4 +19,4 @@ npm start
 npm run build
 ```
 
-APP must be running on [http://localhost:3000] open it in your browser.
+APP must be running on http://localhost:3000 open it in your browser.
