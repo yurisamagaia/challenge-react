@@ -1,11 +1,14 @@
-# github-user-react
+# React challenge
 
-> Uma aplicação em React.js para buscar usuários no GitHub utilizando OAuth com estilização Material UI Next
+> A react and redux application
 
 
 ## Build Setup
 
 ``` bash
+# installation required 
+npm [https://nodejs.org/en/download/] or yarn
+
 # install dependencies
 npm install
 
